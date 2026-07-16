@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    height: 40rem;
+    width: 40rem;
+    background-color: rgb(211, 211, 208);
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+
+}
+.row{
+    position:absolute;
+    display:flex;
+    place-items: column;
+    
+}
+
+.childbox {
+    border: 1px solid black;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
